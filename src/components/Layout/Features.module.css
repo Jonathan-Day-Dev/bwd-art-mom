@@ -2,9 +2,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .features img {
     width: 40%;
     margin: 1rem;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .features img {
+        width: 80%;
+    }
 }
