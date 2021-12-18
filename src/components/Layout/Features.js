@@ -10,14 +10,16 @@ import galleries from '../../assets/galleries.jpg';
 import Card from '../UI/Card';
 
 const Features = props => {
-    <Card className={styles.features}>
-        <img src={vid} alt="videos" />
-        <img src={demos} alt="videos" />
-        <img src={hasBegun} alt="videos" />
-        <img src={merlot} alt="videos" />
-        <img src={anniversary} alt="videos" />
-        <img src={galleries} alt="videos" />
-    </Card>
+    return (
+        <Card className={styles.features}>
+            <img src={vid} alt="videos" />
+            <img src={demos} alt="videos" />
+            <img src={hasBegun} alt="videos" />
+            <img src={merlot} alt="videos" />
+            <img src={anniversary} alt="videos" />
+            <img src={galleries} alt="videos" />
+        </Card>
+    )
 }
 
 export default Features;
